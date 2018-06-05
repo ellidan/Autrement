@@ -102,6 +102,6 @@ function create_my_custom_post() {
 }
 add_action('init', 'create_my_custom_post');
 
-// Pour nettoyer le head 
+// Pour nettoyer le head
 remove_action('wp_head', 'print_emoji_detection_script', 7);
 remove_action('wp_print_styles', 'print_emoji_styles');
