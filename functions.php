@@ -11,8 +11,8 @@ add_action( 'wp_enqueue_scripts', 'startwordpress_scripts' );
 
 // Add Google Fonts
 function startwordpress_google_fonts() {
-				wp_register_style('OpenSans', '//fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
-				wp_enqueue_style( 'OpenSans');
+				wp_register_style('Muli', '//fonts.googleapis.com/css?family=Muli:300,400,900" rel="stylesheet');
+				wp_enqueue_style( 'Muli');
 		}
 
 add_action('wp_print_styles', 'startwordpress_google_fonts');
